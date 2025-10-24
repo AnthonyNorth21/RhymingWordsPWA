@@ -1,0 +1,44 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Rhyming Words — PWA</title>
+
+  <!-- Manifest -->
+  <link rel="manifest" href="manifest.json" />
+
+  <!-- Theme color for UI -->
+  <meta name="theme-color" content="#5a67d8">
+
+  <!-- Apple icons (optional) -->
+  <link rel="apple-touch-icon" href="icon-192.png">
+
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <main class="container">
+    <header>
+      <h1>Rhyming Words</h1>
+      <p class="sub">Enter a word and find rhymes — works offline once installed.</p>
+    </header>
+
+    <section class="search">
+      <label for="wordInput" class="visually-hidden">Enter word</label>
+      <input id="wordInput" type="text" placeholder="Type a word (e.g., cat)" />
+      <button id="findBtn" aria-label="Find rhymes">Find Rhymes</button>
+    </section>
+
+    <section id="results" class="results" aria-live="polite">
+      <!-- Results inserted here -->
+    </section>
+
+    <footer>
+      <small>Tip: Install this app to test offline. Open DevTools → Application → Service Workers to view the service worker.</small>
+      <button id="installBtn" style="display:none;">Install App</button>
+    </footer>
+  </main>
+
+  <script src="app.js" defer></script>
+</body>
+</html>

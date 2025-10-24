@@ -1,0 +1,14 @@
+{
+  "words": [
+    { "word": "cat", "rhymes": ["bat", "hat", "mat", "rat", "sat"] },
+    { "word": "dog", "rhymes": ["bog", "cog", "frog", "log", "jog"] },
+    { "word": "light", "rhymes": ["bright", "kite", "might", "night", "sight"] },
+    { "word": "time", "rhymes": ["rhyme", "clime", "chime", "prime", "slime"] },
+    { "word": "plane", "rhymes": ["train", "drain", "brain", "main", "chain"] },
+    { "word": "hand", "rhymes": ["band", "land", "sand", "stand", "grand"] },
+    { "word": "blue", "rhymes": ["cue", "dew", "few", "true", "view"] },
+    { "word": "play", "rhymes": ["day", "say", "way", "stay", "array"] },
+    { "word": "book", "rhymes": ["cook", "look", "hook", "nook", "rook"] },
+    { "word": "bright", "rhymes": ["light", "sight", "flight", "might", "night"] }
+  ]
+}
